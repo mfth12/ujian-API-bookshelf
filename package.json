@@ -1,0 +1,24 @@
+{
+  "name": "ujian-API-bookshelf",
+  "version": "1.0.0",
+  "description": "Back-end API Aplikasi Bookshelf",
+  "main": "index.js",
+  "scripts": {
+    "mulai-prod": "NODE_ENV=production node ./src/server.js",
+    "mulai-dev": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "Miftahul Haq",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.0.0",
+    "nanoid": "^3.3.4"
+  }
+}
