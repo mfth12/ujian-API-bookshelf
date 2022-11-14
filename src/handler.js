@@ -7,12 +7,6 @@ const handlerTambahBuku = (request, h) => {
     const finished = pageCount === readPage ? true : false;
     const insertedAt = new Date().toISOString();
     const updatedAt = insertedAt;
-    if (reading == true) {
-        const setReading = 1;
-    } else {
-        const setReading = 0;
-    };
-
     if (!name) {
         const response = h.response({
             status: 'fail',
